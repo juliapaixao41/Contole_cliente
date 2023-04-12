@@ -1,0 +1,91 @@
+body{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+}
+
+form#register{
+    margin: 50px 0 0 7px;
+    background-color: rgb(228, 228, 228);
+    width: 500px;
+    height: 500px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+
+}
+
+form#menu{
+    margin: 50px 0 0 0;
+    background-color: rgb(228, 228, 228);
+    width: 200px;
+    height: flex;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    flex-direction:column;
+}
+
+h1#menu {
+    font-weight: bold;
+    align-items: center;
+    margin: 20px 0 0 56px;
+}
+
+
+div#cod {
+    margin: 25px 0 0 25px;
+    flex-direction: column;
+    
+}
+
+label#cod {
+    margin: 0 0 0 2px;
+    font-weight: bold;
+}
+
+input#cod {
+    margin: 1px 0 0 0;
+    width: 50px
+}
+
+label#razao{
+    margin: 0 0 0 12px;
+    font-weight: bold;
+}
+
+label#nome {
+    margin: 10px 0 0 10px;
+    font-weight: bold;
+}
+
+input#razao_social {
+    margin: 5px 0 10px 10px;
+    height: 18px;
+    width: 400px;
+}
+
+input#nome_fantasia {
+    margin: 5px 0 10px 10px;
+    height: 18px;
+    width: 400px;
+}
+
+div#button{
+    margin: 50px 0 0 7px;
+    background-color: rgb(228, 228, 228);
+    width: 125px;
+    height: 500px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    flex-direction:column;
+
+}
+
+button#register{
+    margin: 10px 0 0 10px;
+    align-items: center;
+}
+
+button#clean{
+    margin: 10px 0 0 10px;
+    align-items: center;
+}
